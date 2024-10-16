@@ -4,7 +4,7 @@ import food3 from '../assets/food/banner.png'
 import { slideUp } from './Hero'
 import { motion } from 'framer-motion'
 
-const foods = [
+export const foods = [
     {
         name: "Hot Cake",
         img: food1,

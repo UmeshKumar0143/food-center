@@ -2,6 +2,7 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import HotDeserts from './components/HotDeserts'
 import Banner from './components/Banner'
+import PopularRecipie from './components/PopularRecipie'
 
 
 const App = () => {
@@ -13,6 +14,7 @@ const App = () => {
       </div>
       <HotDeserts/>
       <Banner/>
+      <PopularRecipie/>
     </div>
   )
 }

@@ -7,7 +7,7 @@ const Banner = () => {
         <div className='flex-col flex sm:flex-row justify-between items-center'>
         {/* Image */}
         <motion.div initial ={{opacity: 0, scale: 0}} whileInView={{opacity: 1,scale: 1}} transition={{duration:0.5,delay:0.3}} className="sm:w-[400px] sm:h-[400px] group rounded-full bg-lightYellow">
-            <motion.img initial={{opacity: 0, x:-100, y:100}} whileHover={{scale: 1.2,rotate:15,x:50,y:-50}} whileInView={{opacity:1,x:0,y:0}} transition={{duration:0.3,delay:0.6 ,scale:{duration:0.5}}}   src={BannerImg} alt="" className='img-shadow' />
+            <motion.img initial={{opacity: 0, x:-100, y:100}} whileHover={{scale: 1.2,rotate:15,x:50,y:-50}} whileInView={{opacity:1,x:0,y:0}} transition={{duration:0.3,delay:0.4 ,scale:{duration:0.5}}}   src={BannerImg} alt="" className='img-shadow' />
         </motion.div>
         {/* Text */}
         <div className='sm:w-[40%] mt-12  '>
