@@ -3,6 +3,7 @@ import Hero from './components/Hero'
 import HotDeserts from './components/HotDeserts'
 import Banner from './components/Banner'
 import PopularRecipie from './components/PopularRecipie'
+import Reviews from './components/Reviews'
 
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
       <HotDeserts/>
       <Banner/>
       <PopularRecipie/>
+      <Reviews/>
     </div>
   )
 }
