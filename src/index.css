@@ -13,3 +13,10 @@
         @apply bg-darkGreen rounded-full text-white hover:scale-110 duration-200 font-semibold px-4 py-2 
     }
 }
+
+
+@layer utilities {
+    .img-shadow{
+        filter: drop-shadow(-6px 6px 10px rgb(0,0,0,0.4));
+    }
+}
