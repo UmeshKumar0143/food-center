@@ -3,30 +3,28 @@ import Food from '../assets/food/food.png'
 import Banana from '../assets/food/banana2.png'
 import Spoon from '../assets/food/spoon.png'
 import { FiShoppingCart } from 'react-icons/fi'
-import { animate, motion } from 'framer-motion'
-type Props = {}
+import { motion } from 'framer-motion'
 
-const Hero = (props: Props) => {
-
-    const slideUp = (delay: number) =>{
-        return {
-            initial : {
-                y : '100%',
-                opacity: 0,
+export const  slideUp = (delay: number) =>{
+    return {
+        initial : {
+            y : '100%',
+            opacity: 0,
+        },
+        animate: {
+            y: 0,
+            opacity : 1,
+            transition : {
+                duration : 0.8,
+                delay: delay,
             },
-            animate: {
-                y: 0,
-                opacity : 1,
-                transition : {
-                    duration : 0.8,
-                    delay: delay,
-                },
-            },
-        };
-    }
+        },
+    };
+}
 
-  return (
-    <div className='container sm:flex sm:justify-around  overflow-hidden  min-h-[600px]'>
+const Hero = () => {
+ return (
+    <div className='container sm:flex sm:justify-around  overflow-hidden min-h-[600px]'>
         {/* Text Div */}
         <div>
             <div className='sm:ml-10 sm:mt-[165px] mt-12 '>
