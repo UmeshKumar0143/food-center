@@ -1,9 +1,8 @@
 import {  FiShoppingCart } from 'react-icons/fi';
 import Logo from '../assets/food/logo.png';
-import {animate, delay, motion} from 'framer-motion'; 
-type Props = {}
+import { motion} from 'framer-motion'; 
 
-const Navbar = (props: Props) => {
+const Navbar = () => {
 
     const navItems = [
         {

@@ -24,7 +24,7 @@ export const  slideUp = (delay: number) =>{
 
 const Hero = () => {
  return (
-    <div className='container sm:flex sm:justify-around  overflow-hidden min-h-[600px]'>
+    <div className='container sm:flex sm:justify-around  min-h-[600px]'>
         {/* Text Div */}
         <div>
             <div className='sm:ml-10 sm:mt-[165px] mt-12 '>

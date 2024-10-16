@@ -1,18 +1,18 @@
-import React from 'react'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import HotDeserts from './components/HotDeserts'
+import Banner from './components/Banner'
 
-type Props = {}
 
-const App = (props: Props) => {
+const App = () => {
   return (
-    <div className='bg-white2 '>
+    <div className='bg-white2 overflow-hidden'>
       <div className='relative overflow-hidden'>
       <Navbar/>
       <Hero/>
       </div>
       <HotDeserts/>
+      <Banner/>
     </div>
   )
 }
