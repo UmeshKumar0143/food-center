@@ -1,4 +1,3 @@
-import { a } from 'framer-motion/client'
 import Logo from '../assets/food/logo.png'
 import { navItems } from './Navbar'
 
@@ -19,7 +18,7 @@ const Footer = () => {
         <div>
             <h1 className='text-3xl font-semibold'>Quick Links</h1>
             <div className='flex flex-col '>
-                {navItems.map((item,index)=><a className='text-lg' href={item.path}>{item.title}</a>)}
+                {navItems.map((item,index)=><a key={index}  className='text-lg' href={item.path}>{item.title}</a>)}
             </div>
         </div>
     </div>
