@@ -20,3 +20,20 @@
         filter: drop-shadow(-6px 6px 10px rgb(0,0,0,0.4));
     }
 }
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('/fonts/poppins.woff2') format('woff2'),
+         url('/fonts/poppins.woff') format('woff');
+    font-weight: 400; 
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'League Gothic';
+    src: url('/fonts/league-gothic.woff2') format('woff2'),
+         url('/fonts/league-gothic.woff') format('woff');
+    font-weight: 400; 
+    font-style: normal;
+  }
+  
