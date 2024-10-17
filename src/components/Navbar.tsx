@@ -2,35 +2,35 @@ import {  FiShoppingCart } from 'react-icons/fi';
 import Logo from '../assets/food/logo.png';
 import { motion} from 'framer-motion'; 
 
+export const navItems = [
+    {
+        title: "Home",
+        path: '/',
+        delay: 0.1, 
+    },
+    {
+        title: "Menu",
+        path: '/menu',
+        delay: 0.2, 
+    },
+    {
+        title: "About",
+        path: "/about",
+        delay: 0.3,
+    },
+    {
+        title: "Delivery",
+        path: "/delivery",
+        delay: 0.4,
+    },
+    {
+        title: "Contact Us",
+        path: "/contact",
+        delay: 0.5,
+    },
+]
 const Navbar = () => {
 
-    const navItems = [
-        {
-            title: "Home",
-            path: '/',
-            delay: 0.1, 
-        },
-        {
-            title: "Menu",
-            path: '/menu',
-            delay: 0.2, 
-        },
-        {
-            title: "About",
-            path: "/about",
-            delay: 0.3,
-        },
-        {
-            title: "Delivery",
-            path: "/delivery",
-            delay: 0.4,
-        },
-        {
-            title: "Contact Us",
-            path: "/contact",
-            delay: 0.5,
-        },
-    ]
 
 const slideDown = (delay: number) =>{
     return {
